@@ -25,6 +25,8 @@ def add_msg(msg_name: str) -> dict[str, MsgPayload]:
 
     return {"message": messages_list[msg_id]}
 
+print("Hello World")
+print("Hello World")
 
 # Route to list all messages
 @app.get("/messages")
