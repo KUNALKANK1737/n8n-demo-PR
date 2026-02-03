@@ -8,7 +8,7 @@ messages_list: dict[int, MsgPayload] = {}
 @app.get("/")
 def root() -> dict[str, str]:
     return {"message": "Hello"}
-
+print("Hello World")
 
 # About page route
 @app.get("/about")
