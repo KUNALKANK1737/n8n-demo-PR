@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from models import MsgPayload
 
 app = FastAPI()
-messages_list: dict[int, MsgPayload] = {}
+
 
 
 @app.get("/")
